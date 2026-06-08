@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 760" role="img" aria-labelledby="title desc">
+  <title id="title">Día del Ingeniero en Perú</title>
+  <desc id="desc">Composición institucional con ingenieros, planos, casco, edificios y colores granate y dorado.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1120" y1="0" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fffaf0"/>
+      <stop offset="1" stop-color="#f3e3ca"/>
+    </linearGradient>
+    <linearGradient id="maroon" x1="130" x2="1000" y1="90" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9b183f"/>
+      <stop offset="1" stop-color="#4d0719"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="240" x2="760" y1="120" y2="680" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#f3d486"/>
+      <stop offset="1" stop-color="#a77b24"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="20" stdDeviation="20" flood-color="#4d0719" flood-opacity=".18"/>
+    </filter>
+  </defs>
+  <rect width="1120" height="760" rx="42" fill="url(#bg)"/>
+  <path fill="#f8edf1" d="M80 95h960v570H80z"/>
+  <g stroke="#d8b4bf" stroke-width="2" opacity=".55">
+    <path d="M130 140h860M130 200h860M130 260h860M130 320h860M130 380h860M130 440h860M130 500h860M130 560h860M130 620h860"/>
+    <path d="M160 120v535M230 120v535M300 120v535M370 120v535M440 120v535M510 120v535M580 120v535M650 120v535M720 120v535M790 120v535M860 120v535M930 120v535"/>
+  </g>
+  <path fill="#fff" stroke="#d6c09a" stroke-width="6" d="M124 126h620v430H124z" filter="url(#softShadow)"/>
+  <path fill="none" stroke="url(#maroon)" stroke-width="15" stroke-linecap="round" stroke-linejoin="round" d="M190 470h420V242H260v110h250"/>
+  <path fill="none" stroke="#c9a04f" stroke-width="10" stroke-linecap="round" d="M188 190h300M188 220h210M188 520h440"/>
+  <circle cx="620" cy="225" r="56" fill="none" stroke="#7a1230" stroke-width="14"/>
+  <circle cx="620" cy="225" r="24" fill="none" stroke="#7a1230" stroke-width="10"/>
+  <path fill="url(#gold)" d="M714 140h82c84 0 152 68 152 152v22H562v-22c0-84 68-152 152-152Z"/>
+  <path fill="#be8d2e" d="M548 304h414c24 0 44 20 44 44v10H504v-10c0-24 20-44 44-44Z"/>
+  <path fill="#7a1230" d="M764 140h46v304h-46z"/>
+  <path fill="#8f1739" d="M632 304h132v54H632z"/>
+  <path fill="#fff8e8" stroke="#7a1230" stroke-width="10" d="M745 402h270v138H745z"/>
+  <path fill="#7a1230" d="M780 540V430h34v110Zm72 0V462h34v78Zm72 0V444h34v96Z"/>
+  <path fill="none" stroke="#c9a04f" stroke-width="9" stroke-linecap="round" d="M760 416h230M760 564h230"/>
+  <g transform="translate(176 522)">
+    <circle cx="74" cy="34" r="32" fill="#7a1230"/>
+    <path fill="#7a1230" d="M22 108c10-34 34-54 72-54s62 20 72 54v54H22Z"/>
+    <path fill="#c9a04f" d="M42 28c8-28 30-44 64-44 36 0 58 16 66 44H42Z"/>
+    <path fill="#2a2a29" d="M92 54h24v108H92z"/>
+  </g>
+  <g transform="translate(372 522)">
+    <circle cx="74" cy="34" r="32" fill="#7a1230"/>
+    <path fill="#7a1230" d="M22 108c10-34 34-54 72-54s62 20 72 54v54H22Z"/>
+    <path fill="#c9a04f" d="M38 26h136v20H38z"/>
+    <path fill="#2a2a29" d="M78 54h24v108H78z"/>
+  </g>
+  <text x="560" y="690" fill="#7a1230" font-family="Georgia, 'Times New Roman', serif" font-size="48" font-weight="700" text-anchor="middle">Día del Ingeniero</text>
+  <text x="560" y="724" fill="#a77b24" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="800" text-anchor="middle">PERÚ · 8 DE JUNIO</text>
+</svg>

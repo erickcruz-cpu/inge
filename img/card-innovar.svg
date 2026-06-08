@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-labelledby="title">
+  <title id="title">Innovación</title>
+  <rect width="360" height="220" rx="18" fill="#fff8e8"/>
+  <path d="M180 38c-42 0-74 32-74 72 0 26 14 47 34 60v18h80v-18c20-13 34-34 34-60 0-40-32-72-74-72Z" fill="#c9a04f"/>
+  <path d="M144 188h72M152 204h56" stroke="#7a1230" stroke-width="11" stroke-linecap="round"/>
+  <path d="M158 112h64M180 112v56" stroke="#7a1230" stroke-width="11" stroke-linecap="round"/>
+  <path d="M72 76 48 58M288 76l24-18M72 140l-28 12M288 140l28 12" stroke="#7a1230" stroke-width="10" stroke-linecap="round"/>
+</svg>

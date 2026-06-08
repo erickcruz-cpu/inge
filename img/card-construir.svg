@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 220" role="img" aria-labelledby="title">
+  <title id="title">Construcción</title>
+  <rect width="360" height="220" rx="18" fill="#fff8e8"/>
+  <path d="M68 174h244" stroke="#7a1230" stroke-width="10" stroke-linecap="round"/>
+  <path d="M96 174V92h84v82M180 174V64h84v110" fill="none" stroke="#7a1230" stroke-width="12" stroke-linejoin="round"/>
+  <path d="M110 112h32M110 140h32M206 88h32M206 116h32M206 144h32" stroke="#c9a04f" stroke-width="9" stroke-linecap="round"/>
+  <path d="M54 82h126L118 42Z" fill="#c9a04f"/>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1120 760" role="img" aria-labelledby="title desc">
+  <title id="title">Ilustración de ingeniería</title>
+  <desc id="desc">Mesa de trabajo con plano técnico, casco, regla y herramientas.</desc>
+  <defs>
+    <linearGradient id="table" x1="0" x2="1120" y1="0" y2="760" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#fff8eb"/>
+      <stop offset="1" stop-color="#efe2c5"/>
+    </linearGradient>
+    <linearGradient id="maroon" x1="132" x2="982" y1="105" y2="662" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9b183f"/>
+      <stop offset="1" stop-color="#5b0d22"/>
+    </linearGradient>
+  </defs>
+  <rect width="1120" height="760" rx="44" fill="url(#table)"/>
+  <rect x="110" y="92" width="800" height="560" rx="24" fill="#fff" stroke="#dac8a6" stroke-width="6"/>
+  <path fill="#f7f1f3" d="M145 135h730v475H145z"/>
+  <g stroke="#b98699" stroke-width="2" opacity=".52">
+    <path d="M180 170h650M180 220h650M180 270h650M180 320h650M180 370h650M180 420h650M180 470h650M180 520h650M180 570h650"/>
+    <path d="M210 150v450M270 150v450M330 150v450M390 150v450M450 150v450M510 150v450M570 150v450M630 150v450M690 150v450M750 150v450M810 150v450"/>
+  </g>
+  <path fill="none" stroke="url(#maroon)" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" d="M270 505h360V260H320v115h230"/>
+  <path fill="none" stroke="#c9972f" stroke-width="12" stroke-linecap="round" d="M248 205h260M248 240h170M248 570h470"/>
+  <circle cx="740" cy="260" r="74" fill="none" stroke="#7a1230" stroke-width="16"/>
+  <circle cx="740" cy="260" r="32" fill="none" stroke="#7a1230" stroke-width="12"/>
+  <path fill="#f3be45" d="M725 118h80c76 0 138 62 138 138v16H587v-16c0-76 62-138 138-138Z"/>
+  <path fill="#d99b25" d="M575 260h370c20 0 36 16 36 36v12H539v-12c0-20 16-36 36-36Z"/>
+  <path fill="#7a1230" d="M763 118h42v142h-42z"/>
+  <path fill="#8f1739" d="M639 260h126v48H639z"/>
+  <rect x="762" y="470" width="258" height="58" rx="12" fill="#7a1230" transform="rotate(-19 891 499)"/>
+  <rect x="786" y="448" width="68" height="102" rx="10" fill="#f7d276" transform="rotate(-19 820 499)"/>
+  <path fill="#5b0d22" d="m937 441 70-24-33 66Z"/>
+  <text x="520" y="688" fill="#7a1230" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="800" text-anchor="middle">DÍA DEL INGENIERO</text>
+</svg>

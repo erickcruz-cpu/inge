@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Día del Ingeniero en Perú</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Montserrat:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/styles.css?v=7">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#inicio">Día del Ingeniero</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Abrir menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#mensaje">Mensaje</a></li>
+            <li class="nav-item"><a class="nav-link" href="#areas">Áreas</a></li>
+            <li class="nav-item"><a class="nav-link" href="#saludo">Saludo</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main id="inicio">
+      <section class="hero">
+        <canvas id="blueprintCanvas" aria-hidden="true"></canvas>
+        <div class="container hero-content">
+          <div class="row align-items-center min-vh-100">
+            <div class="col-lg-7">
+              <p class="hero-kicker">8 de junio</p>
+              <h1>Día del Ingeniero en Perú</h1>
+              <p class="lead">
+                Celebramos a quienes diseñan, calculan, construyen y transforman ideas en soluciones que sostienen el progreso del país.
+              </p>
+              <div class="d-flex flex-wrap gap-3">
+                <a class="btn btn-primary btn-lg" href="#saludo">Enviar saludo</a>
+                <a class="btn btn-outline-light btn-lg" href="#mensaje">Ver mensaje</a>
+              </div>
+            </div>
+            <div class="col-lg-4 offset-lg-1">
+              <div class="date-panel">
+                <img src="./img/logo-cip.png" alt="Logo del Colegio de Ingenieros del Perú" class="cip-badge">
+                <span class="panel-label">Hoy se conmemora</span>
+                <strong>Ingeniería peruana</strong>
+                <p id="dateText">8 de junio</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="mensaje" class="section-pad">
+        <div class="container">
+          <div class="row align-items-center g-4 message-layout">
+            <div class="col-lg-5">
+              <img src="./img/ingeniero-sistemas.jpg" alt="Ingeniero de sistemas trabajando con laptop y cableado de red" class="message-image">
+            </div>
+            <div class="col-lg-7">
+              <div class="message-content">
+                <p class="section-label">Saludo por rama</p>
+                <h2>Mensaje por especialidad</h2>
+              </div>
+              <div class="engineer-selector">
+                <label for="engineerType" class="form-label">Elige el tipo de ingeniero</label>
+                <select id="engineerType" class="form-select">
+                  <option value="general">Ingeniería en general</option>
+                  <option value="sistemas">Ingeniero de Sistemas</option>
+                  <option value="electrico">Ingeniero Eléctrico</option>
+                  <option value="civil">Ingeniero Civil</option>
+                  <option value="industrial">Ingeniero Industrial</option>
+                  <option value="mecanico">Ingeniero Mecánico</option>
+                  <option value="ambiental">Ingeniero Ambiental</option>
+                </select>
+              </div>
+              <p class="section-copy engineer-message" id="engineerMessage">
+                En cada obra, sistema, máquina, proceso y mejora tecnológica hay disciplina, creatividad y compromiso. Este 8 de junio reconocemos el trabajo de las ingenieras e ingenieros que impulsan comunidades más seguras, eficientes y conectadas.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="areas" class="areas-section section-pad">
+        <div class="container">
+          <div class="d-flex flex-column flex-md-row justify-content-between align-items-md-end gap-3 mb-4">
+            <div>
+              <p class="section-label">Especialidades</p>
+              <h2>Una profesión, muchos caminos</h2>
+            </div>
+            <div class="specialty-strip" aria-label="Especialidades de ingeniería">
+              <span>Civil</span>
+              <span>Industrial</span>
+              <span>Sistemas</span>
+              <span>Eléctrica</span>
+              <span>Mecánica</span>
+              <span>Ambiental</span>
+              <span>Más ramas</span>
+            </div>
+          </div>
+          <div class="row g-3">
+            <div class="col-md-6 col-lg-3">
+              <article class="area-card text-center">
+                <div class="area-icon-container">
+                  <i class="bi bi-pencil-ruler area-icon"></i>
+                </div>
+                <span>01</span>
+                <h3>Diseñar</h3>
+                <p>Convertir necesidades reales en planes claros, medibles y ejecutables.</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <article class="area-card text-center">
+                <div class="area-icon-container">
+                  <i class="bi bi-building area-icon"></i>
+                </div>
+                <span>02</span>
+                <h3>Construir</h3>
+                <p>Materializar proyectos con seguridad, calidad y responsabilidad.</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <article class="area-card text-center">
+                <div class="area-icon-container">
+                  <i class="bi bi-gear-wide-connected area-icon"></i>
+                </div>
+                <span>03</span>
+                <h3>Optimizar</h3>
+                <p>Mejorar procesos para ahorrar recursos, tiempo y energía.</p>
+              </article>
+            </div>
+            <div class="col-md-6 col-lg-3">
+              <article class="area-card text-center">
+                <div class="area-icon-container">
+                  <i class="bi bi-lightbulb area-icon"></i>
+                </div>
+                <span>04</span>
+                <h3>Innovar</h3>
+                <p>Crear soluciones tecnológicas para los retos del presente.</p>
+              </article>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="saludo" class="section-pad">
+        <div class="container">
+          <div class="salute-box">
+            <div class="salute-heading">
+              <p class="section-label">Saludo especial</p>
+              <h2 id="saluteTitle">¡Feliz Día del Ingeniero!</h2>
+              <p id="saluteMessage">Gracias por construir soluciones con conocimiento, ética y visión de país.</p>
+            </div>
+            <form id="saluteForm" class="salute-form">
+              <label for="nameInput" class="form-label">Nombre del ingeniero o ingeniera</label>
+              <div class="salute-inputs">
+                <input id="nameInput" class="form-control" type="text" maxlength="35" placeholder="Ejemplo: Ana" autocomplete="name">
+                <select id="saluteEngineerType" class="form-select">
+                  <option value="Ingeniero">Ingeniería en general</option>
+                  <option value="Ingeniero de Sistemas">Ingeniero de Sistemas</option>
+                  <option value="Ingeniero Eléctrico">Ingeniero Eléctrico</option>
+                  <option value="Ingeniero Civil">Ingeniero Civil</option>
+                  <option value="Ingeniero Industrial">Ingeniero Industrial</option>
+                  <option value="Ingeniero Mecánico">Ingeniero Mecánico</option>
+                  <option value="Ingeniero Ambiental">Ingeniero Ambiental</option>
+                </select>
+                <button class="btn btn-primary" type="submit">Personalizar</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container d-flex flex-column flex-md-row justify-content-between gap-2">
+        <span>Derechos reservados</span>
+        <span>Hecho por el Ing. de Sistemas Erick Cruz</span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js?v=7"></script>
+  </body>
+</html>
